@@ -11,11 +11,6 @@ import com.carcomparer.car_comparer.catalog.model.dtos.CarResponseDTO;
 import com.carcomparer.car_comparer.catalog.model.entities.CarEntity;
 
 @Repository
-public interface CarRepository extends JpaRepository<CarEntity, Integer>{
-    List<CarResponseDTO> getAllCars();
-    CarResponseDTO getCarById(Long id);
-    
-    @Modifying
-    @Transactional
-    CarEntity createCar(CarEntity carDTO);
+public interface CarRepository extends JpaRepository<CarEntity, Long> {
 }
+
