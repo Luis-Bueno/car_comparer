@@ -1,4 +1,8 @@
 spring:
+  servlet:
+    multipart:
+     max-file-size: 50MB
+     max-request-size: 50MB
   application:
     name: car_comparer
   datasource:
@@ -17,3 +21,8 @@ spring:
     console:
       enabled: true
       path: /h2-console
+      
+server:
+  servlet:
+    session:
+      tracking-modes: cookie

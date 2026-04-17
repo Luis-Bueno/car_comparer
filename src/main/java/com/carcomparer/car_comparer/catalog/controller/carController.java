@@ -19,7 +19,7 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/carcomparer")
 @RequiredArgsConstructor
-public class carController {
+public class CarController {
     private final CarService carService;
 
     @GetMapping("/{id}")
