@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CarComparerApplication<car_comparer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.carcomparer.car_comparer.CarComparerApplication",
+            "projectName": "car_comparer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

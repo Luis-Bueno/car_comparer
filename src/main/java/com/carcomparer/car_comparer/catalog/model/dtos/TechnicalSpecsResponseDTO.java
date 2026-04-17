@@ -1,28 +1,15 @@
-package com.carcomparer.car_comparer.catalog.model.entities;
+package com.carcomparer.car_comparer.catalog.model.dtos;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToOne;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Entity
+@Data
 @Builder
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class TechnicalSpecsEntity {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    //Engine and performance
+public class TechnicalSpecsResponseDTO {
     private String engine_type;
     private double hp;
     private double cc;
@@ -31,14 +18,12 @@ public class TechnicalSpecsEntity {
     private double max_velocity;
     private double aceleration;
     private String aspiration;
-    
-    //Transmission and Drivetrain
+
     private String transmission_type;
     private short speeds;
     private String drivetrain;
     private double lsd;
 
-    //Dimesions and Capacities
     private double weight;
     private double wheelbase;
     private double length;
@@ -49,19 +34,13 @@ public class TechnicalSpecsEntity {
     private double fuel_tank;
     private short seats;
 
-    //Fuel Economy
     private double city_kmpl;
     private double highway_kmpl;
     private double combined_kmpl;
     private double range;
 
-    //Chassis, Suspension and Safety
     private String braking_system;
     private String FR_suspension;
     private short Airbags;
     private String ADAS;
-
-    @OneToOne(mappedBy = "technicalSpecs")
-    private CarEntity car;
-
 }

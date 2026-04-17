@@ -1,21 +1,23 @@
 package com.carcomparer.car_comparer.catalog.model.dtos;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@Getter
-@Setter 
+@NoArgsConstructor
+@AllArgsConstructor
 public class CarResponseDTO {
-    private long id;
+    private Long id;
 
     private String brand;
     private String model;
     private int year;
 
-    private int userId;
+    private Long userId;
+    private TechnicalSpecsResponseDTO technicalSpecs;
+    private FeatureResponseDTO features;
 
-}
+} 

@@ -1,11 +1,22 @@
-C:\Users\angel.bueno\Desktop\Hardly Working\LETSFUKINGGOOO\car_comparer\src\main\java\com\carcomparer\car_comparer\CarComparerApplication.java
-C:\Users\angel.bueno\Desktop\Hardly Working\LETSFUKINGGOOO\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\controller\carController.java
-C:\Users\angel.bueno\Desktop\Hardly Working\LETSFUKINGGOOO\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\dtos\CarRequestDTO.java
-C:\Users\angel.bueno\Desktop\Hardly Working\LETSFUKINGGOOO\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\dtos\CarResponseDTO.java
-C:\Users\angel.bueno\Desktop\Hardly Working\LETSFUKINGGOOO\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\dtos\ResponseDTO.java
-C:\Users\angel.bueno\Desktop\Hardly Working\LETSFUKINGGOOO\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\entities\CarEntity.java
-C:\Users\angel.bueno\Desktop\Hardly Working\LETSFUKINGGOOO\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\entities\FeatureEntity.java
-C:\Users\angel.bueno\Desktop\Hardly Working\LETSFUKINGGOOO\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\entities\TechnicalSpecsEntity.java
-C:\Users\angel.bueno\Desktop\Hardly Working\LETSFUKINGGOOO\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\repository\CarRepository.java
-C:\Users\angel.bueno\Desktop\Hardly Working\LETSFUKINGGOOO\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\service\CarService.java
-C:\Users\angel.bueno\Desktop\Hardly Working\LETSFUKINGGOOO\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\service\impl\CarServiceImpl.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\CarComparerApplication.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\config\DataInitializer.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\controller\CarController.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\controller\FileUploadController.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\dtos\CarRequestDTO.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\dtos\CarResponseDTO.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\dtos\FeatureRequestDTO.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\dtos\FeatureResponseDTO.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\dtos\ResponseDTO.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\dtos\TechnicalSpecsRequestDTO.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\dtos\TechnicalSpecsResponseDTO.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\entities\CarEntity.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\entities\FeatureEntity.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\entities\TechnicalSpecsEntity.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\model\StorageProperties.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\repository\CarRepository.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\service\CarService.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\service\FileStorageService.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\service\impl\CarServiceImpl.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\service\impl\FileStorageServiceImpl.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\utils\StorageException.java
+C:\Users\angel.bueno\Desktop\OP\car_comparer\src\main\java\com\carcomparer\car_comparer\catalog\utils\StorageFileNotFoundException.java

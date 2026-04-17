@@ -2,37 +2,39 @@ package com.carcomparer.car_comparer.catalog.controller;
 
 import java.util.List;
 
-import org.springframework.stereotype.Controller;
-
-import com.carcomparer.car_comparer.catalog.model.dtos.CarResponseDTO;
-import com.carcomparer.car_comparer.catalog.model.dtos.ResponseDTO;
-import com.carcomparer.car_comparer.catalog.model.entities.CarEntity;
-import com.carcomparer.car_comparer.catalog.service.CarService;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+import com.carcomparer.car_comparer.catalog.model.dtos.CarRequestDTO;
+import com.carcomparer.car_comparer.catalog.model.dtos.CarResponseDTO;
+import com.carcomparer.car_comparer.catalog.model.dtos.ResponseDTO;
+import com.carcomparer.car_comparer.catalog.service.CarService;
 
+import lombok.RequiredArgsConstructor;
 
-@Controller
-public class carController {
-    private final CarService carService = null;
+@RestController
+@RequestMapping("/carcomparer")
+@RequiredArgsConstructor
+public class CarController {
+    private final CarService carService;
 
-    @GetMapping("/carcomparer/{id}")
-    public ResponseDTO<CarResponseDTO> getCarByID(@RequestParam Long id) {
+    @GetMapping("/{id}")
+    public ResponseDTO<CarResponseDTO> getCarByID(@PathVariable Long id) {
         return carService.getCarById(id);
     }
 
-    @GetMapping("/carcomparer")
+    @GetMapping
     public ResponseDTO<List<CarResponseDTO>> getAllCars() {
         return carService.getAllCars();
     }
 
-    @PostMapping("/carcomparer")
-    public ResponseDTO<CarEntity> createCar(@RequestBody CarEntity car) {
+    @PostMapping
+    public ResponseDTO<CarResponseDTO> createCar(@RequestBody CarRequestDTO car) {
         return carService.createCar(car);
     }
-    
-    
 }
+
